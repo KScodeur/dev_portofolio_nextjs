@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "NextJs Portfolio Website",
+    description: "Un portofolio qui resume un peu mon parcours",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,11 +16,11 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Recettes flutter Application",
+    description: "Une application permettant apprendre les recettes de cuisine et autre",
     image: "/images/projects/7.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/KScodeur/recettes_flutter_app/tree/develop",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/KScodeur/shopping-cart-react/tree/develop",
     previewUrl: "/",
   },
   {
@@ -52,9 +52,9 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "Emailing App",
+    description: "Project Interne(Private for our company)",
+    image: "/images/projects/10.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -62,10 +62,10 @@ const projectsData = [
   {
     id: 7,
     title: "Full-stack PHP Web application",
-    description: "Project 5 description",
+    description: "Gestion administrative d'une école",
     image: "/images/projects/9.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/KScodeur/php_application/tree/develop",
     previewUrl: "/",
   },
 ];
